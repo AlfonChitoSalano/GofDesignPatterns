@@ -27,3 +27,23 @@ runner6.Run();
 Console.WriteLine();
 IProgramRunner runner7 = new ChainOfResponsibilityProgramRunner();
 runner7.Run();
+
+Console.WriteLine();
+IProgramRunner runner8 = new BuilderProgramRunner();
+runner8.Run();
+
+Console.WriteLine();
+IProgramRunner runner9 = new BuilderProgramRunner();
+runner9.Run();
+
+Console.WriteLine();
+IProgramRunner runner10 = new AdapterProgramRunner();
+runner10.Run();
+
+Console.WriteLine();
+IProgramRunner runner11 = new DecoratorProgrammerRunner();
+runner11.Run();
+
+Console.WriteLine();
+IProgramRunner runner12 = new FacadeProgramRunner();
+runner12.Run();

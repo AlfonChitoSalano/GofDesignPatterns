@@ -47,3 +47,7 @@ runner11.Run();
 Console.WriteLine();
 IProgramRunner runner12 = new FacadeProgramRunner();
 runner12.Run();
+
+Console.WriteLine();
+IProgramRunner runner13 = new IteratorProgramRunner();
+runner13.Run();

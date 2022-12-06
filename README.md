@@ -8,10 +8,10 @@ The intent of this is to create a single instance of the object throughout the a
 ### Factory 
 The intent of this is to create the interface, letting you create subclasses or polymorphism without exposing interface internal creation.
 
-### Structural
+## Structural
 ### Adapter 
 The intent of this is to convert the interface that clients expect that couldn't be because of incompatible interfaces.
 
-### Behavioral
+## Behavioral
 ### Observer 
 The intent of this is to provide loose coupling between a notifier to listeners. If the notifier changes its state then all listeners are notified. Some called this pub/sub.

@@ -8,6 +8,12 @@ The intent of this is to create a single instance of the object throughout the a
 ### Factory 
 The intent of this is to create the interface, letting you create subclasses or polymorphism without exposing interface internal creation.
 
+### Abstract 
+The intent of this is just like a factory but with the grouping of the related factories into one factory object.
+
+### Builder 
+The intent of this is to separate the construction of a complex object from its representation and you will need a director that generates the final product.
+
 ## Structural
 ### Adapter 
 The intent of this is to convert the interface that clients expect that couldn't be because of incompatible interfaces.

@@ -18,6 +18,12 @@ The intent of this is to separate the construction of a complex object from its 
 ### Adapter 
 The intent of this is to convert the interface that clients expect that couldn't be because of incompatible interfaces.
 
+### Decorator 
+The intent of this is to attach additional responsibilities to an object at runtime or commonly called a wrapper.
+
+### Facade 
+The intent of this is to provide a unified interface to make subsystems easier to use.
+
 ## Behavioral
 ### Observer 
 The intent of this is to provide loose coupling between a notifier to listeners. If the notifier changes its state then all listeners are notified. Some called this pub/sub.

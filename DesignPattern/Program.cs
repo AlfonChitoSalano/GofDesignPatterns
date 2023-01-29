@@ -51,3 +51,7 @@ runner12.Run();
 Console.WriteLine();
 IProgramRunner runner13 = new IteratorProgramRunner();
 runner13.Run();
+
+Console.WriteLine();
+IProgramRunner runner14 = new StateProgramRunner();
+runner14.Run();

@@ -55,3 +55,7 @@ runner13.Run();
 Console.WriteLine();
 IProgramRunner runner14 = new StateProgramRunner();
 runner14.Run();
+
+Console.WriteLine();
+IProgramRunner runner15 = new TemplateProgramRunner();
+runner15.Run();
